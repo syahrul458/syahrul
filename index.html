@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYAHRUL DAN AGUNG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .destinations {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .destination-card {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .destination-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MENJELAJAHI DUNIA</h1>
+        <p>Temukan tujuan perjalanan anda berikutnya!</p>
+    </header>
+
+    <div class="content">
+        <h2>TUJUAN POPULER !!!</h2>
+        <div class="destinations">
+            <div class="destination-card">
+                <img src="image/bali.jpg" alt="Beach">
+                <h3>BALI</h3>
+                <p>bali menawarkan keindahan pantai, budaya yang kaya, dan pemandangan alam yang memukau, menjadikannya destinasi wisata yang tak terlupakan.</p>
+            </div>
+            <div class="destination-card">
+                <img src="image/kyoto.jpg" alt="Mountain">
+                <h3>KYOTO</h3>
+                <p>Kyoto memikat hati dengan kuil-kuil bersejarah, taman tradisional yang tenang, dan  pesona budaya jepang yang autentik.</p>
+            </div>
+            <div class="destination-card">
+                <img src="image/paris.jpg" alt="City">
+                <h3>PARIS</h3>
+                <p>Paris mempesona dengan Menara Eiffel yang ikonik, senin kelas dunia di louvre, dan suasana romantis di setiap sudutnya.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jelajahi Dunia. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APA YANG KAMI TAWARKAN - Jelajah Dunia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .content h2 {
+            color: #4CAF50;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .gallery-item {
+            width: calc(33.333% - 20px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .gallery-item {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .gallery-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>APA YANG KAMI TAWARKAN</h1>
+    </header>
+    <div class="content">
+        <h2>Layanan kami dirancang untuk memberi anda pengalaman perjalanan yang mulus</h2>
+        <div class="destinations">
+            <div class="destination-card">
+                <img src="image/pemesanan pesawat.jpg" alt="Pemesanan Penerbangan">
+                <h3>Pemesanan Penerbangan</h3>
+                <p>proses memesan tiket pesawat untuk perjalanan uadara melalui maskapai penerbangan, agen perjalanan, atau platform online.</p>
+            </div>
+            <div class="destination-card">
+                <img src="image/hotel.jpg" alt="Reservasi Hotel">
+                <h3>Reservasi Hotel</h3>
+                <p>Proses pemesanan kamar di hotel untuk menginap pada tanggal tertentu.</p>
+            </div>
+            <div class="destination-card">
+                <img src="image/asuransi.jpg" alt="Asuransi Perjalanan">
+                <h3>Asuransi Perjalanan</h3>
+                <p>Jenis perlindungan asuransi yang dirancang untuk memberikan jaminan finansial dan bantuan darurat selama perjalanan.</p>
+            </div>
+            <div class="destination-card">
+                <img src="image/mobil.jpg" alt="Penyewaan Mobil">
+                <h3>Penyewaan Mobil</h3>
+                <p>layanan dimana seseorang dapat menyewa kendaraan untuk jangka waktu yang lama.</p>
+            </div>
+            <div class="destination-card">
+                <img src="image/247.jpg" alt="24/7">
+                <h3>27/Support</h3>
+                <p>layanan dukungan atau teknis yang tersedia 24 jam sehari.</p>
+            </div>
+            
+        </div>
+        <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Jelajah Dunia. Hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TENTANG KAMI - MEenjelajahi dunia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .content h2 {
+            color: #4CAF50;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TENTANG KAMI</h1>
+    </header>
+
+    <div class="content">
+        <h2>SIAPA KITA</h2>
+        <p>Penjelajah perjalanan adalah mitra terpercaya untuk menemukan dan menjelajahi tujuan-tujuan palimg iindah di dunia.Misi kami adalah membuat pengalaman perjalanan yang tak terlupakan.</p>
+        
+        <h2>MISI KAMI</h2>
+        <p>Menjelajahi dunia untuk memperkaya wawasan, pengalaman, dan koneksi dengan berbagai budaya.Menciptakan kenangan yang tak terlupakan dengan menjelajahi tempat-tempat baru dan menemukan keindahan dunia.</p>
+        
+        <a class="back-link" href="index.html">← Back to Home</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jelajahi Dunia. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - Jelajah Dunia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .content h2 {
+            color: #4CAF50;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kontak Kami</h1>
+    </header>
+    <div class="content">
+        <h2>Hubungi Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau ingin informasi lebih lanjut, silakan isi formulir di bawah ini. Kami akan segera menghubungi Anda.</p>
+        <form action="proses_kontak.php" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="5" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+        <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Jelajah Dunia. Hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
